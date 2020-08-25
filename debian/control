@@ -1,0 +1,18 @@
+Source: pclcmd
+Section: utils
+Priority: optional
+Maintainer: Anton Batenev <antonbatenev@yandex.ru>
+Build-Depends: debhelper (>= 7.0.50~), python
+Standards-Version: 3.9.4
+Vcs-Git: https://github.com/abbat/pclcmd.git
+Vcs-Browser: https://github.com/abbat/pclcmd
+Homepage: https://github.com/abbat/pclcmd
+
+Package: pclcmd
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-dateutil
+Recommends: ca-certificates
+Suggests: python-progressbar
+Description: Command-line pCloud client
+ Command-line tool to upload, retrieve and manage data in pCloud
+ service (https://www.pcloud.com), designed for use in scripts.

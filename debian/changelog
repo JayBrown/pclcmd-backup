@@ -1,0 +1,12 @@
+pclcmd (0.2) unstable; urgency=low
+
+  * Fix #3 typo in ini example;
+  * Fix #2 request() got an unexpected keyword argument 'encode_chunked'.
+
+ -- Anton Batenev <antonbatenev@yandex.ru>  Sun, 12 Feb 2017 01:54:45 +0300
+
+pclcmd (0.1) unstable; urgency=low
+
+  * Initial.
+
+ -- Anton Batenev <antonbatenev@yandex.ru>  Tue, 22 Mar 2016 01:26:11 +0300
